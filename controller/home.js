@@ -1,5 +1,5 @@
 const HomeService = require('../service/home')
-
+// 添加路由
 module.exports = {
   index: async (ctx, next)=>{
     ctx.response.body = `<h1>index page</h1>`
